@@ -6,7 +6,7 @@ import { Navigationcontainer } from '@react-navigation/native';
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 import Home from './page/home'; 
 import News from './page/it_news';
-import Profil from './page/about' ;
+import Profile from './page/about';
 
 
 const Tab = createBottomTabNavigator(); 
@@ -20,11 +20,11 @@ const BottomNavigator = () => {
         let iconName; 
         if (route.name === 'Home' ) { 
           iconName = 'home-variant-outline';
-         } else if (route.name === 'About') { 
+         } else if (route.name === 'Profile') { 
            iconName = ' information-variant '
          }
          return (
-            <lcon 
+            <Icon 
             as={MaterialCommunityIcons}
             name={iconName}
             size={30}
