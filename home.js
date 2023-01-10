@@ -11,7 +11,6 @@ import {
     VStack
 } from "native-base";
 import { ActivityIndicator } from "react-native";
-import { Pressable } from "react-native";
 import { Constants } from "expo-constants";
 
 export default class Home extends Component{
