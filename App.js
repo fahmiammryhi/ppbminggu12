@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Navigationcontainer } from '@react-navigation/native'; 
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 import Home from './page/home'; 
-import News from './page/it_news';
+import News from './page/NewsDetails.js';
 import Profile from './page/about';
 
 
