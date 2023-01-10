@@ -56,7 +56,7 @@ export default class Home extends Component{
                         onPress={() => navigation.navigate('newsDetail', {data: item})}
                     >
                     <Box>
-                        <image source={{uri: item.thumbnail}} style={{height: 100, resizeMode: 'stretch'}}/>
+                        <Image source={{uri: item.thumbnail}} style={{height: 100, resizeMode: 'stretch'}}/>
                         <Text m="5" fontSize="lg" color="white" style={{textAlign: 'justify',}}>
                             {item.title}
                         </Text>
