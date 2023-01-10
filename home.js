@@ -72,7 +72,7 @@ export default class Home extends Component{
         return(
             <NativeBaseProvider flex="1">
                 <Box
-                    style={{flex: 20, marginTop: ConstantSourceNode.statusBarHeight}}
+                    style={{flex: 20, marginTop: Constants.statusBarHeight}}
                     bg="#52ACFF"
                     borderBottomRadius="25"
                 >
