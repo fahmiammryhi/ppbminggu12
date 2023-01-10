@@ -1,5 +1,5 @@
-import React from 'react';
-import { Constants } from "expo-constants";
+import React, {Component} from 'react';
+import Constants from 'expo-constants';
 import { 
     NativeBaseProvider,
     Box,
