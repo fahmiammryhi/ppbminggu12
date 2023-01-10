@@ -6,7 +6,7 @@ import { Navigationcontainer } from '@react-navigation/native';
 import { MaterialCommunityIcons } from '@expo/vector-icons'; 
 import Home from './page/home'; 
 import News from './page/NewsDetails.js';
-import Profile from './page/about';
+import Profil from './page/about';
 
 
 const Tab = createBottomTabNavigator(); 
@@ -20,7 +20,7 @@ const BottomNavigator = () => {
         let iconName; 
         if (route.name === 'Home' ) { 
           iconName = 'home-variant-outline';
-         } else if (route.name === 'Profile') { 
+         } else if (route.name === 'Profil') { 
            iconName = ' information-variant '
          }
          return (
@@ -58,7 +58,7 @@ const BottomNavigator = () => {
       />
      <Tab.Screen
         name='About'
-        Component={Profile}
+        Component={Profil}
         options={{
         unmountOnBlur: true,
         headerShown: false,
