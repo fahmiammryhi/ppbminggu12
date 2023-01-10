@@ -46,7 +46,7 @@ export default class Home extends Component{
 
         return(
             <>
-                <center>
+                <Center>
                     <Pressable
                         width= "85%"
                         bg="#6E8FAD"
@@ -62,7 +62,7 @@ export default class Home extends Component{
                         </Text>
                     </Box>
                     </Pressable>
-                </center>
+                </Center>
             </>
         );
     };
@@ -82,7 +82,7 @@ export default class Home extends Component{
                         </Text>
                     </Center>
                 </Box>
-                <center width="100%" style={{flex: 75}}>
+                <Center width="100%" style={{flex: 75}}>
                     {isLoading ? (
                         <ActivityIndicator size="large" color="#AA0002"/>
                     ): (
@@ -93,7 +93,7 @@ export default class Home extends Component{
                             renderItem={this.renderItem}
                         />
                     )}
-                </center>
+                </Center>
             </NativeBaseProvider>
         );
     }
