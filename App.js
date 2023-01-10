@@ -20,7 +20,7 @@ const BottomNavigator = () => {
         let iconName; 
         if (route.name === 'Home' ) { 
           iconName = 'home-variant-outline';
-         } else if (route.name === 'Profil') { 
+         } else if (route.name === 'About') { 
            iconName = ' information-variant '
          }
          return (
