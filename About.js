@@ -19,7 +19,7 @@ class Profil extends React.Component {
       <ScrollView px={3} py={5}>
       <Box>
       <Heading>App Description</Heading>
-      <Text mt={3} style={{ textAlign : 'justify '}}>
+      <Text mt={3} style={{ textalign : 'justify '}}>
        Lorem Ipsum
        </Text>
       </Box>
