@@ -53,7 +53,7 @@ export default class Home extends Component{
                         rounded="8"
                         mt="2"
                         overflow="hidden"
-                        onPress={() => navigation.navigate('newsDetail', {data: item})}
+                        onPress={() => navigation.navigate('NewsDetail', {data: item})}
                     >
                     <Box>
                         <Image source={{uri: item.thumbnail}} style={{height: 100, resizeMode: 'stretch'}}/>
